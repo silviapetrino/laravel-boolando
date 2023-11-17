@@ -1,9 +1,10 @@
-@php
-    $productsCards = config('woman-products');
-@endphp
+
 
 @extends('layouts.main')
 
+@php
+    $productsCards = config('woman-products');
+@endphp
 
 @section('content')
 

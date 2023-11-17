@@ -5,7 +5,7 @@
     $productsCards = config('products');
 @endphp
 
-@extends('layouts.main')
+
 
 @section('content')
 

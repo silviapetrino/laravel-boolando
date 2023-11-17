@@ -102,7 +102,7 @@ return [
         "value" => "Sostenibilità"
       ]
     ]
-]
+    ]
 
 
 
