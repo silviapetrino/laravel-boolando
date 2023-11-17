@@ -15,15 +15,9 @@
 {{-- here include header  --}}
 @include('partials.header')
 
-<div class="container">
-
-    <div class="container-main display-flex">
 
         @yield('content')
 
-    </div>
-
-</div>
 
 {{-- here include footer  --}}
 @include('partials.footer')
