@@ -14,12 +14,6 @@ Route::get('/', function () {
 })->name('home');
 
 
-// route for products
-
-Route::get('/prodotti', function () {
-    return view('products');
-})->name('products');
-
 
 // routes header menu
 
