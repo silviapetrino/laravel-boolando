@@ -102,8 +102,11 @@ return [
         "value" => "Sostenibilità"
       ]
     ]
-  ]
-];
+]
+
+
+
+]
 
 
 ?>

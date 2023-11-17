@@ -19,8 +19,20 @@
 
                 <span class="heart">&hearts;</span>
                     <div class="marks">
-                        <span  class="range-discount">-50%</span>
-                        <span  class="value">Sostenibilità</span>
+
+                        @foreach ($badges as $badge)
+                            @if ($badge['type'] == 'discount')
+                            <span  class="range-discount">{{$badge['value']}}</span>
+                            @endif
+                        @endforeach
+
+
+                        @foreach ($badges as $badge)
+                            @if ($badge['value'] == 'Sostenibilità')
+                                <span class="value">Sostenibilità</span>
+                            @endif
+                        @endforeach
+
                     </div>
 
                 <div class="product-details">

@@ -12,17 +12,15 @@
 </head>
 <body>
 
-
 {{-- here include header  --}}
 @include('partials.header')
-
 
 <div class="container">
 
     <div class="container-main display-flex">
 
         @yield('content')
- 
+
     </div>
 
 </div>
