@@ -30,30 +30,38 @@ return [
             ],
     "main_menu_footer" => [
                 [
-                    "name" => "woman",
-                    "text" => "Donna"
+                    "name" => "#",
+                    "text" => "Informazioni legali"
                 ],
                 [
-                    "name" => "man",
-                    "text" => "Uomo"
+                    "name" => "#",
+                    "text" => "Informativa di privacy"
                 ],
                 [
-                    "name" => "kids",
-                    "text" => "Bambini"
+                    "name" => "#",
+                    "text" => "Diritto di recesso"
                 ]
                 ],
     "socials_menu_footer" => [
                 [
-                    "name" => "woman",
-                    "text" => "Donna"
+                    "href" => "#",
+                    "icon" => "fa-brands fa-square-twitter"
                 ],
                 [
-                    "name" => "man",
-                    "text" => "Uomo"
+                    "name" => "#",
+                    "icon" => "fa-brands fa-square-facebook"
                 ],
                 [
-                    "name" => "kids",
-                    "text" => "Bambini"
+                    "name" => "#",
+                    "icon" => "fa-brands fa-square-instagram"
+                ],
+                [
+                    "name" => "#",
+                    "icon" => "fa-brands fa-square-pinterest"
+                ],
+                [
+                    "name" => "#",
+                    "icon" => "fa-brands fa-square-youtube"
                 ]
             ]
 
