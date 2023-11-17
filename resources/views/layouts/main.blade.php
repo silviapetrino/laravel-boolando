@@ -17,6 +17,7 @@
 @include('partials.header')
 
 {{-- here include footer  --}}
+@include('partials.footer')
 
 </body>
 </html>

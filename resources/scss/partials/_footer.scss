@@ -1,0 +1,42 @@
+
+footer {
+  background-color: #0E0E0E;
+  color: white;
+
+  .text {
+    ul {
+      padding-left: 0;
+      display: flex;
+      li {
+
+        a {
+          font-size: .7rem;
+          padding: 2px;
+        }
+      }
+    }
+    
+  }
+
+  .social {
+    span {
+      display: inline-block;
+      font-size: .8rem;
+      font-weight: 600;
+      text-align: left;
+    }
+    nav {
+      padding-top: 5px;
+    
+      ul {
+       
+        li {
+          display: inline-block;
+          padding: 2px;
+        }
+      }
+    }
+  }
+}
+
+

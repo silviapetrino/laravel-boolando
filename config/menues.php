@@ -48,23 +48,22 @@ return [
                     "icon" => "fa-brands fa-square-twitter"
                 ],
                 [
-                    "name" => "#",
+                    "href" => "#",
                     "icon" => "fa-brands fa-square-facebook"
                 ],
                 [
-                    "name" => "#",
+                    "href" => "#",
                     "icon" => "fa-brands fa-square-instagram"
                 ],
                 [
-                    "name" => "#",
+                    "href" => "#",
                     "icon" => "fa-brands fa-square-pinterest"
                 ],
                 [
-                    "name" => "#",
+                    "href" => "#",
                     "icon" => "fa-brands fa-square-youtube"
                 ]
             ]
-
 
 
     ];
