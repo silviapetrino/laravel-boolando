@@ -6,14 +6,11 @@
 @endphp
 
 
-
 @section('content')
 
 {{-- products --}}
 
-<div class="container">
 
-    <div class="container-main display-flex">
 
         @foreach ($productsCards as $item)
         <div class="singol-card card m-1">
@@ -22,10 +19,18 @@
                 <img class="second"  src="/img/{{ $item['backImage']}}" alt="{{$item['name']}}">
 
             <span class="heart">&hearts;</span>
-                <div class="marks">
-                    <span  class="range-discount">-50%</span>
-                    <span  class="value">Sostenibilità</span>
-                </div>
+
+            <div class="marks">
+                @if (($item['badges']))
+                    @foreach ($item['badges'] as $badge)
+                        @if ($badge['type'] === 'tag')
+                            <span class="value">{{ $badge['value'] }}</span>
+                        @elseif ($badge['type'] === 'discount')
+                            <span class="range-discount">{{ $badge['value'] }}</span>
+                        @endif
+                    @endforeach
+                @endif
+            </div>
 
             <div class="product-details">
                 <span class="brand">{{ $item['brand'] }}</span>
@@ -38,9 +43,6 @@
 
         @endforeach
 
-    </div>
-
-</div>
 
 
 
