@@ -19,7 +19,9 @@
       </nav>
 
       <div id="logo">
-        <img src="/boolean-logo.png" alt="logo" title="logo-boolean">
+        <a href="{{ route('home')}}">
+            <img src="/boolean-logo.png" alt="logo" title="logo-boolean">
+        </a>
     </div>
 
       <nav>
